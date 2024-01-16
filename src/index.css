@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn:nth-child(3),.btn:nth-child(3)>p , .btn:nth-child(5),.btn:nth-child(5)>p{
+  color: #48556A;
+}
