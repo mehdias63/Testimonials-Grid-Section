@@ -4,7 +4,7 @@ export default function Grid({ icon, title, text, description, color }) {
   return (
     <div className="btn m-4 rounded-lg p-8" style={{ backgroundColor: color }}>
       <div className="flex items-center">
-        <img src={icon} className="w-[1.75rem] h-[1.75rem] rounded-full" />
+        <img src={icon} className="w-[1.75rem] h-[1.75rem] rounded-full" alt="icon"/>
         <div className="ml-6">
           <h2 className="leading-[0.8125rem] text-[0.8125rem] font-medium">
             {title}
